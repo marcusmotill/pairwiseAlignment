@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.AlignmentForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="30" y="20" width="720" height="407"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7898" class="javax.swing.JTextField" binding="tfGapPen">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="35015" class="javax.swing.JTextField" binding="tfMatchPen">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6565b" class="javax.swing.JTextField" binding="tfMisPen">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="dd894" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Gap Penalty"/>
+        </properties>
+      </component>
+      <component id="68141" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Match Penalty"/>
+        </properties>
+      </component>
+      <component id="c7903" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Miss Penalty"/>
+        </properties>
+      </component>
+      <component id="eab0a" class="javax.swing.JButton" binding="bSubmit">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Align"/>
+        </properties>
+      </component>
+      <component id="da373" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sequence 1"/>
+        </properties>
+      </component>
+      <component id="f9214" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sequence 2"/>
+        </properties>
+      </component>
+      <component id="5bccd" class="javax.swing.JRadioButton" binding="rbDNA">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DNA Alignment"/>
+        </properties>
+      </component>
+      <component id="c94d4" class="javax.swing.JRadioButton" binding="rbAmino">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Amino Acid Alignment"/>
+        </properties>
+      </component>
+      <scrollpane id="abd8d">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f7411" class="javax.swing.JTextArea" binding="taSequence1">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="54ab7">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6688e" class="javax.swing.JTextArea" binding="taSequence2">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="83896">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="edfe6" class="javax.swing.JTextPane" binding="tpResults">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="699e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Results"/>
+        </properties>
+      </component>
+      <component id="f334d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Alignment Score:"/>
+        </properties>
+      </component>
+      <component id="1bea" class="javax.swing.JLabel" binding="lScore">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2e0d" class="javax.swing.JRadioButton" binding="rbLocal">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Local Align"/>
+        </properties>
+      </component>
+      <component id="35500" class="javax.swing.JRadioButton" binding="rbGlobal">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Global Align"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
