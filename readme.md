@@ -10,7 +10,8 @@
 4. Input FASTA sequence **without description line**
 5. Click Align
 
-Should look like this: ![](image1.png)
+Should look like this:
+ ![](image1.png)
 
 **Note that due to bugs the amino acis alignment is only visible in the IDE console: ![](image3.png)**
 
